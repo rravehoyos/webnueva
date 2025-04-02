@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>NeoColors</title>
+	<link rel="stylesheet" type="text/css" href="css/estilos.css">
+	<script src="js/jquery.js"></script>
+	<script src="js/funciones.js"></script>
+</head>
+<body>
+	<div class="conteG">
+		<div class="panel1">
+			<div class="herra1">
+				<div class="titu"> <span>N</span>eoColors</div>
+				<input type="color" id="selector1" class="selector1" onchange="vari(),paletas()">
+				<div class="colores">
+					<center>
+					<div class="cuadrin variaciones" id="coliv1" onclick="alert('hola')">?</div>
+					<div class="cuadrin variaciones" id="coliv2">?</div>
+					<div class="cuadrin variaciones" id="coliv3">?</div>
+					<div class="cuadrin variaciones" id="coliv4">?</div>
+					<div class="cuadrin variaciones" id="coliv5">?</div>
+					</center>
+				</div>
+			</div>
+			<div class="herra2">
+				<center><div class="tituP" >Proximidad</div></center>
+				<div class="colores">
+  					<div id="colip1" class="variaciones cuadrin">?</div>
+  					<div id="colip2" class="variaciones cuadrin">?</div>
+  					<div id="colip3" class="variaciones cuadrin">?</div>					
+				</div>
+
+			</div>
+			<div class="herra3">
+				<center><div class="tituP">Triangular</div></center>
+				<div class="colores">
+					<div id="colit1" class="variaciones cuadrin">?</div>
+  					<div id="colit2" class="variaciones cuadrin">?</div>
+  					<div id="colit3" class="variaciones cuadrin">?</div>				
+				</div>
+			</div>
+			<div class="herra4">
+				<center><div class="tituP">Cuadrada</div>
+				<div class="colores">
+						<div id="colic1" class="variaciones cuadrin">?</div>
+  						<div id="colic2" class="variaciones cuadrin">?</div>
+  						<div id="colic3" class="variaciones cuadrin">?</div>
+  				    	<div id="colic4" class="variaciones cuadrin">?</div>			
+				</div>
+				</center>
+			</div>
+		</div>
+		<div class="panel2">
+			<div class="herra5">
+			<svg  viewBox="0 0 500 400" class="arbustin">
+  				<path  id="forma1" class="libresi" style="stroke: rgb(0, 0, 0); stroke-width: 4px; fill: rgb(158, 189, 52);" d="M 84.544 361.216 C 156.584 367.114 411.156 353.31 450.374 342.038 C 480.643 333.338 501.53 266.598 456.643 227.716 C 506.18 181.453 457.85 111.806 408.701 115.237 C 409.345 12.947 242.384 11.786 218.414 86.103 C 144.964 35.183 13.574 91.78 76.064 213.333 C 27.184 217.021 -34.936 351.434 84.544 361.216 Z"/>
+ 				<path id="sombra1" class="libresi" style="stroke: rgb(0, 0, 0); stroke-width: 0px; fill: rgb(131, 160, 31);" d="M 407.171 115.036 C 456.32 111.627 504.65 180.834 455.113 226.805 C 500 265.441 479.113 331.759 448.844 340.404 C 419.327 348.835 267.815 358.69 163.953 360.551 C 294.327 275.557 493.218 116.734 309.083 35.94 C 357.983 35.805 407.522 59.682 407.171 115.036 Z"/>
+  				<path id="sombra2" class="libresi" style="stroke-width: 0px; stroke: rgb(104, 140, 30); fill: rgb(104, 140, 30);" d="M 455.113 226.375 C 500 265.257 479.113 331.997 448.844 340.697 C 430.042 346.101 361.745 351.378 287.793 355.496 C 314.997 358.36 446.079 194.392 423.532 116.734 C 465.67 127.523 498.913 185.47 455.113 226.375 Z"/>
+  				<g transform="matrix(1, 0, 0, 1, 11.8516845703125, -80.84330749511719)" id="cara">
+   				<ellipse style="stroke: rgb(0, 0, 0); fill: rgb(58, 36, 36); stroke-width: 0px; transform-box: fill-box; transform-origin: 51.7866% 54.5643%;" cx="181.918" cy="272.785" rx="24.339" ry="28.581" id="ojo1"/>
+    			<path style="stroke: rgb(0, 0, 0); stroke-linecap: round; stroke-linejoin: round; stroke-width: 4px; fill: rgba(216, 216, 216, 0); transform-box: fill-box; transform-origin: 50% 52.5493%;" d="M 229.279 297.833 C 227.357 335.402 275.29 337.434 275.008 293.777" id="boca"/>
+    			<ellipse class="libresi" style="stroke: rgb(0, 0, 0); stroke-width: 0px; fill: rgb(255, 255, 255); transform-box: fill-box; transform-origin: 50.9059% 45.9174%;" cx="199.67" cy="219.843" rx="12.539" ry="4.241" transform="matrix(0.548554, 0.836115, -0.836115, 0.548554, -7.557344, 43.068576)" id="iris1"/>
+   				 <ellipse class="libresi" style="stroke: rgb(0, 0, 0); fill: rgb(235, 86, 56); stroke-width: 0px; transform-box: fill-box; transform-origin: 51.2666% 50.8022%;" cx="147.7" cy="324.967" rx="24.524" ry="12.907" id="rubo1"/>
+    			<ellipse class="libresi" style="stroke: rgb(0, 0, 0); fill: rgb(58, 36, 36); stroke-width: 0px; transform-box: fill-box; transform-origin: 47.873% 52.1736%;" cx="327.808" cy="272.785" rx="24.339" ry="28.581" id="ojo2"/>
+   				<ellipse class="libresi" style="stroke: rgb(0, 0, 0); stroke-width: 0px; fill: rgb(255, 255, 255); transform-origin: 51.6183% 56.059%; transform-box: fill-box;" cx="199.67" cy="219.843" rx="12.539" ry="4.241" transform="matrix(0.548554, 0.836115, -0.836115, 0.548554, 134.355952, 42.829659)" id="iris2"/>
+    			<ellipse class="libresi" style="stroke: rgb(0, 0, 0); fill: rgb(235, 86, 56); stroke-width: 0px; transform-box: fill-box; transform-origin: 50.4222% 53.2088%;" cx="361.753" cy="324.967" rx="24.524" ry="12.907" id="rubo2"/>
+  				</g>
+  				<path style="stroke: rgb(0, 0, 0); stroke-width: 4px; stroke-linecap: round; stroke-linejoin: round; fill: rgba(216, 216, 216, 0); transform-origin: 96.877px 214.613px;" d="M 75.463 216.256 C 91.234 212.962 92.707 212.105 118.291 213.861" transform="matrix(0.991046965122, 0.133513957262, -0.133513957262, 0.991046965122, -0.041000030519, -0.002760042785)"/>
+  				<path style="stroke: rgb(0, 0, 0); stroke-width: 4px; stroke-linecap: round; stroke-linejoin: round; fill: rgba(216, 216, 216, 0); transform-origin: 225.935px 94.939px;" d="M 204.521 96.582 C 220.292 93.288 221.765 92.431 247.349 94.187" transform="matrix(0.696163117886, 0.717883050442, -0.717883050442, 0.696163117886, 0.000019532976, 0.000005541818)"/>
+  				<path style="stroke: rgb(0, 0, 0); stroke-linecap: round; stroke-linejoin: round; fill: rgba(216, 216, 216, 0); stroke-width: 2px; transform-origin: 399.187px 116.138px;" d="M 377.773 117.781 C 393.544 114.487 395.017 113.63 420.601 115.386" transform="matrix(0.999472022057, -0.032496001571, 0.032496001572, 0.999472022057, 6.0963e-8, 3.37028e-7)"/>
+  				<path style="stroke: rgb(0, 0, 0); stroke-linecap: round; stroke-linejoin: round; fill: rgba(216, 216, 216, 0); stroke-width: 2px; transform-origin: 442.343px 217.183px;" d="M 418.177 239.277 C 429.08 219.264 438.173 214.675 463.757 216.431" transform="matrix(0.800842106342, 0.59887611866, -0.59887611866, 0.800842106342, 0.000065477648, 0.000114784183)"/>
+			</svg>
+			</div>
+			<div class="herra6">
+			<center>
+				<div class="pintar" onclick="proxi()">Proximidad</div>
+				<div class="pintar" onclick="tria()">Triangular</div>
+				<div class="pintar" onclick="cua()">Cuadrada</div>
+			</center>
+			</div>
+			<div class="herra7">
+				<center>
+				<input type="color"  id="libre" class="libre">
+				<div class="libreti">Color Libre</div>
+			</center>	
+			</div>
+		</div>
+	</div>
+
+</body>
+</html>
